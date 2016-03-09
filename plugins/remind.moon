@@ -61,17 +61,17 @@ run = (msg,matches) ->
 
 description = "*Remind plugin*"
 usage = "
-`/remind <delay (value|mh)>  <text>`
+`[!/#](remind) <delay (value|mh)>  <text>`
 *examples:*
 
-`/remind 1h test`
-`/remind 1m test`
-`/remind 1h30m test`
+`[!/#](remind) 1h test`
+`[!/#](remind) 1m test`
+`[!/#](remind) 1h30m test`
   "
 patterns = {
-  "^/remind (%d+)([Hh]) (.+)$"
-  "^/remind (%d+)([Mm]) (.+)$"
-  "^/remind (%d+)([Hh])(%d+)([Mm]) (.+)$"
+  "^/(remind) (%d+)([Hh]) (.+)$"
+  "^[!/#](remind) (%d+)([Mm]) (.+)$"
+  "^[!/#](remind) (%d+)([Hh])(%d+)([Mm]) (.+)$"
   }
 return {
   :description
