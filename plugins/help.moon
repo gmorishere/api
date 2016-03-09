@@ -43,7 +43,7 @@ run = (msg,matches) ->
     if msg.chat.type ~= "private"
       res = help_all(msg.from.id)
       unless res
-        return "_Message me first so i can message you !_"
+        return "_Message me in pv first so i can message you !_"
 
       return "*I have sent you the plugins list with their full information in a private message*"
     else
