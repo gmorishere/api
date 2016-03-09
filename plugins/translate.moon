@@ -31,10 +31,10 @@ ar-en for translating text from arabic to english
 You can use both
 Use it by reply\n"
              patterns: {
-               "^[/!]translate ([^%s]+) (.*)$"
-               "^[/!]translate (.*)$"
-               "^[/!]tr ([^%s]+) (.*)$"
-               "^[/!]tr ([^%s]+)$"
+               "^[/#!]translate ([^%s]+) (.*)$"
+               "^[/!#]translate (.*)$"
+               "^[/!#]tr ([^%s]+) (.*)$"
+               "^[/!#]tr ([^%s]+)$"
 }
              :run
        }
