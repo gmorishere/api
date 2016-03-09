@@ -16,7 +16,7 @@ usage = "
 `/who`
 returns info about user and chat"
 patterns = {
-  "^[/!]who$"
+  "^[/!#]who$"
 }
 return {
   :description
