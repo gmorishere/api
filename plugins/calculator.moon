@@ -17,7 +17,7 @@ return {
   description: "*Calculator !*"
   usage: "`/calc [expression]`\n"
   patterns: {
-  "^[!/]calc (.*)"
+  "^[!/#]calc (.*)"
   }
   :run
 }
