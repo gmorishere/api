@@ -9,6 +9,7 @@ run = (msg,matches) ->
   return matches[1]
 patterns = {
   "^[#!/]echo (.*)"
+  "^[#!/]bgu (.*)"
   "###inline[#!/]echo (.*)"--inline
 }
 description = "*Echo plugin !*"
